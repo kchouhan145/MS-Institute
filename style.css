@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+}
+
+.header{
+    text-align: center;
+    background-color: whitesmoke;
+    color: #393E46;
+    border-top: 4px solid rgb(224, 81, 73);
+    border-bottom: 2px solid rgb(224, 81, 73);
+}
+.navbar{
+    color: #000;
+    background-color: rgb(33, 37, 41);
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;
+    align-items: center;
+    border-top: 2px solid rgb(224, 81, 73);
+    border-bottom: 4px solid rgb(224, 81, 73);
+}
+.navbar a{
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: white;
+}
+
+.home-img{
+    background-image: url(img1.png);
+    background-size: cover;
+    height: 400px;
+}
+
+.main-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.welcome h2{
+    color: blue;
+    
+}
+.aboutus h2{
+    color: blue;
+    
+}
+.contactus h2{
+    color: blue;
+    
+}
+
+.text{
+    text-align: center;
+}
+
+.border{
+    border: 4px solid transparent;
+    border-radius: 5px;
+}
+
+.border:hover{
+    border: 4px solid whitesmoke;
+    border-radius: 15px;
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.page-bottom{
+    border-top: 2px solid rgb(224, 81, 73);
+    background-color: rgb(33, 37, 41);
+    height: 180px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+footer{
+    border-top: 2px solid rgb(224, 81, 73);
+    background-color: rgb(33, 37, 41);
+    color: rgba(255, 255, 255, 0.918);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
